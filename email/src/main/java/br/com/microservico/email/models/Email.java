@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -40,10 +42,13 @@ public class Email {
     @Column(nullable = false, length = 255)
     private String subject;
 
-    @Column(columnDefinition = "TEXT")
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String text;
 
+    @Column(nullable = false)
     private LocalDateTime sendDateEmail;
 
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false, length = 5)
     private StatusEmail statusEmail;
 }
