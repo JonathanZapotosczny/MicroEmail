@@ -1,6 +1,7 @@
 package br.com.microservico.email.models;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -28,7 +29,7 @@ public class Email {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @JsonIgnore
-    private int id;
+    private UUID id;
 
     @Column(nullable = false, length = 255)
     private String ownerRef;
