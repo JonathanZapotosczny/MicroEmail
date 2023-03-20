@@ -30,6 +30,6 @@ E-mail
     <li>O JAVA 11 e o Docker precisam estar instalados em sua máquina</li>
     <li>Após clonar o projeto, abra o terminal na pasta raíz e execute o seguinte comando: docker-compose up -d</li>
     <li>Configure seu e-mail, para que seja gerado uma senha para aplicativos terceiros (não é a senha padrão)</li>
-    <li>Configure o arquivo "application.properties" com o seu e-mail e a senha gerada</li>
+    <li>Configure o arquivo "application.properties" com o seu e-mail, senha gerada, endereço do RabbitMQ e o nome da fila</li>
     <li>Documentação disponível pelo Swagger em: http://localhost:8085/swagger-ui/index.html#/</li>
 </ul>
