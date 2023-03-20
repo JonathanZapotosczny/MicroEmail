@@ -9,6 +9,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="50" width="62" alt="spring logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="50" width="62" alt="mysql logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="50" width="62" alt="docker logo"  />
+   <img src="https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/rabbitmq.svg" height="50" width="62" alt="RabbitMQ logo"  />
 </div>
 
 <h2 align="left">Schemas JSON</h2>
